@@ -1,16 +1,68 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: rgb(90, 90, 90);
+  padding: 30px;
+}
+
+footer{ 
+  position:relative; 
+  width:100%; 
+  height:100px;
+  background:#36073f;
+  color: white; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionCard{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+
+.activate{
+  color: white;
+  background: linear-gradient( #CE9FFC, #7367F0);
+  width: 30.3333333333%;
+  margin: 1%;
+  padding: 30px;
+  border-radius: 8px;
+  position: relative;
+  transition: .3s all;
+  box-shadow: 0 2px 5px 0 rgba(3,6,26,0.15);
+}
+
+.deactivate{
+  color: white;
+  width: 30.3333333333%;
+  background: linear-gradient( #65799b, #5e2563);
+  margin: 1%;
+  padding: 30px;
+  border-radius: 8px;
+  position: relative;
+  transition: .3s all;
+  box-shadow: 0 2px 5px 0 rgba(3,6,26,0.15);
+}
+
+.unknown{
+  color: white;
+  width: 30.3333333333%;
+  background: linear-gradient( #7117ea, #ea6060);
+  margin: 1%;
+  padding: 30px;
+  border-radius: 8px;
+  position: relative;
+  transition: .3s all;
+  box-shadow: 0 2px 5px 0 rgba(3,6,26,0.15);
 }
