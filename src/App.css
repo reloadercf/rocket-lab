@@ -1,0 +1,24 @@
+h2{
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.statusSection{
+  display: flex;
+  justify-content: space-around;
+}
+
+.allCapsules{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

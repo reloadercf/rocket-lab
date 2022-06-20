@@ -1,0 +1,21 @@
+.statusBox{
+    display: flex;
+    width: 30.3333333333%;
+    flex-direction: column;
+    margin: 1%;
+    padding: 30px 30px 36px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgb(3 6 26 / 15%);
+    box-sizing: border-box;
+
+}
+
+.statusTxt{
+    color: white;
+    align-self: flex-start;
+}
+
+.statusImg{
+    align-self: center;
+    height: 20px;
+}
