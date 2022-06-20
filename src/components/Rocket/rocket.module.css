@@ -1,0 +1,26 @@
+.cardIcon{
+    height: 0.45em;
+    margin-left: 2em;
+}
+
+.article{
+    width: 20%;
+    padding: 30px;
+    margin: 1%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgb(3 6 26 / 15%);
+}
+
+.nameStatus{
+    display: flex;
+    width: 100%;
+}
+
+.name{
+    margin: 0;
+}
+
+.details{
+    margin: 0;
+}
