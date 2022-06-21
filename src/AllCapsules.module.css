@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+.title{
+    color:#5A5A5A;
+    font-size: 1.7em;
+    margin-left: 1em;
+    }
+.capsulContainer{
+    color: #5A5A5A;
+    width: 90vw;
+    margin-left: 4em;
+    margin-right: 3em;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-column-gap: 3em;
+    grid-row-gap: 2em;
+    justify-content:space-evenly;
+
+   
+
+}
+.eachCapsule{
+    height:calc();
+    border-radius: 5%;
+    border: solid .04em rgb(233, 228, 228);
+    padding: 0 2em 1em ;
+    color: #5A5A5A;
+    box-shadow: 1px 2px #797878 ;
+    font-family: Lato;
+    justify-content: calc();
+}
+.rocketStatus{
+    grid-area: second;
+    height: 1em;
+    justify-self: center;
+    margin-top: 2em;
+    margin-left: 5em;
+}
+.titleAndRocket{
+    display: flex;
+    justify-content: flex-start;
+}

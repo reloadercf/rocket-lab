@@ -1,0 +1,54 @@
+
+.examples{
+    margin-top: 0;
+    margin: 1.5em;
+}
+.title{
+color:#5A5A5A;
+font-size: 1.7em;
+}
+.statusContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.Active{
+ width: 30%;
+ color: white;
+ font-size: 1em;
+ background-image: linear-gradient(to right bottom,#CE9FFC,#7367F0);
+ border-radius: 25px;
+ display: grid;
+ grid-template-rows: 50% 50%;
+ 
+ 
+}
+.Destroyed{
+    width: 30%;
+    color: white;
+    font-size: 1em;
+    background-image: linear-gradient(to right bottom,#65799b,#5e2563);
+    border-radius: 25px;   
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.Unknown{
+    width: 30%;
+    color: white;
+    font-size: 1em;
+    background-image: linear-gradient(to right bottom,#7117ea,#ea6060);
+    border-radius: 25px; 
+    display: grid;
+    grid-template-rows: 50% 50%; 
+   
+   
+}
+.status{
+    margin-top: 1em;
+    margin-left: 1.5em;
+    font-size: 1.5em;
+}
+.rocketStatus{
+    height: 2em;
+    justify-self: center;
+    margin-bottom: 2em;
+}
