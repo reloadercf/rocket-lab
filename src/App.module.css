@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+
+.Initial{
+  width: 95vw;
+  height: 95vh;
+  background-image: linear-gradient(to right bottom,#b20ecf46,#ca5ad72f),url('https://raw.githubusercontent.com/Laboratoria/CDMX012-gym/main/session-16/exercises/rocket-lab-web/assets/spacex.jpg'
+  );
+  clip-path: polygon(0 0,100% 0,100% 75vh,0 100%);
+  position: relative;
+  background-size: cover;
+  margin: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  
+}
+.rocketLogo{
+  width: 6em;
+  margin-top: 1em;
+  margin-left: 2em;
+  place-self: flex-start;
+  
+}
+.titles{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: min-content;
+}
+
+.Rocket {
+  width: 96vw;
+  clip-path: polygon(0 0, 100% 0, 100% 55%, 0 75%);
+  z-index: -1;
+  margin: 1.5em;
+  
+}
+
+.RocketTitle{
+  position: center;
+  z-index: 1;
+  color: white;
+  font-family: lato, sans-serif;
+  font-weight: 600;
+  font-size: 6em;
+  letter-spacing: .5em;
+  animation: title 2s ;
+}
+.RocketSubtitle{
+  position: center;
+  z-index: 1;
+  color: white;
+  font-family: lato, sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  letter-spacing: .3em;
+  margin-top: 0;
+  animation: subtitle 2s ;
+  
+}
+
+.startButton{
+  width: 10em;
+  height: 4em;
+  border-radius: 25px;
+  border-color: transparent;
+  color: #5A5A5A;
+  font-family: sans-serif;
+  background-color: white;
+  animation: start 2s;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+ 
+}
+
+
+.foot{
+  height: 4em;
+  width: 95vw;
+  margin-top: 1em;
+  align-self: center;
+  margin-left: 2em;
+  color: whitesmoke;
+  background-color: rgb(42, 2, 75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.footText{
+  font-family: lato;
+  
+}
+
+@keyframes subtitle {
+  0% {
+    margin-right: -50%;
+  }
+  55% {
+    margin-left: -80%;
+  }
+   100% {
+    margin-left: -50%;
+  }
+}
+@keyframes title {
+  0% {
+    margin-left: -50%;
+  }
+  55% {
+    margin-right: -80%;
+  }
+  100% {
+    margin-right: -50%;
+  }
+}
+@keyframes start {
+  0% {
+    margin-top: -50%;
+  }
+  55% {
+    margin-bottom: -80%;
+  }
+  100% {
+    margin-bottom: -50%;
+  }
+}
